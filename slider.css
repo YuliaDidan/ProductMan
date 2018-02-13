@@ -1,0 +1,122 @@
+
+.block-slider {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	width: 80%; /*640px; */
+	height: 320px;
+	/* border: solid 1px black; */
+	margin: 50px auto;
+	background: url(bg_gradient.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.block-slider__black {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 53.7%; /*330px;*/
+	height: 80px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 80px;
+	color: #111a28;
+	/* border: solid 1px black; */
+	letter-spacing: 3px;
+	/* padding: inherit; */
+	margin-left: -2px;
+	margin-top: 0;
+	line-height: 58px;
+}
+
+.block-slider__white {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 53%; /*330px;*/
+	height: 80px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	font-size: 80px;
+	color: #111a28;
+	/* border: solid 1px black; */
+	letter-spacing: 3px;
+	margin-top: 65px;
+	text-align: right;
+	margin-left: 5px;
+}
+
+.block-slider__text1 {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 53%; /*330px;*/
+	height: 65px;
+	/* border: solid 1px black; */
+	margin-top: 165px;
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: right;
+}
+
+.block-slider__viewproject {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 14%; /*85px;*/
+	height: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #e10011;
+	letter-spacing: 1px;
+	margin-left: 250px;
+	margin-top: 240px;
+	/* border: solid 1px black; */
+	text-align: right;
+}
+
+.block-slider__imgearflaps {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 31%; /*235px;*/
+	height: 265px;
+	margin-left: 385px;
+}
+
+.block-slider__slidernavred,
+.block-slider__slidernavblack1,
+.block-slider__slidernavblack2 {
+	position: absolute;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	margin-top: 310px;
+}
+
+.block-slider__slidernavred {
+	background-color: #e10011;
+	margin-left: 315px;
+}
+
+.block-slider__slidernavblack1 {
+	background-color: #303030;
+	margin-left: 327px;
+}
+
+.block-slider__slidernavblack2 {
+	background-color: #303030;
+	margin-left: 339px;
+}
+
+
+
+
+
